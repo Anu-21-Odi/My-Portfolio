@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Odi Anuntelemi Olurotimi — CV</title>
+<style>
+@page{size:A4;margin:14mm 14mm}
+:root{
+  --ink:#14141a; --soft:#5b5b66; --rule:#e2e2e6; --accent:#7a8b00;
+  --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;padding:36px 40px;background:#fff;color:var(--ink);
+  font-family:var(--font);font-size:13.2px;line-height:1.55;
+  max-width:210mm;margin-inline:auto;
+}
+h1{font-size:26px;margin:0;letter-spacing:-.03em;line-height:1.05;text-transform:uppercase}
+h2{
+  font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--soft);
+  margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--rule);font-weight:700;
+}
+h3{font-size:13.6px;margin:0;letter-spacing:-.01em}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+ul{margin:8px 0 0;padding-left:17px}
+li{margin-bottom:3px}
+.contact{
+  display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;
+  font-size:12.2px;color:var(--soft);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+.role{font-size:13.5px;color:var(--accent);font-weight:600;margin-top:6px}
+.head{padding-bottom:14px;border-bottom:2px solid var(--ink)}
+.entry{display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+.when{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.6px;color:var(--soft);white-space:nowrap}
+.org{color:var(--soft);font-size:12.6px;margin-top:1px}
+.block{margin-top:14px}
+.block:first-of-type{margin-top:0}
+.skills{display:grid;gap:6px;margin-top:10px}
+.skills div{display:grid;grid-template-columns:132px 1fr;gap:12px;font-size:12.8px}
+.skills b{font-weight:600;color:var(--soft);font-size:11.6px;letter-spacing:.04em;text-transform:uppercase}
+.intro{margin-top:12px;color:#33333d;max-width:70ch}
+.note{font-size:11.6px;color:var(--soft);margin-top:10px;font-style:italic}
+@media print{
+  body{padding:0;font-size:12.4px}
+  h2{margin-top:20px}
+}
+</style>
+</head>
+<body>
+
+  <div class="head">
+    <h1>Odi Anuntelemi Olurotimi</h1>
+    <p class="role">Software Engineering Student &middot; Full-Stack Developer (in training)</p>
+    <div class="contact">
+      <span>Lokoja, Kogi State, Nigeria</span>
+      <span>anuntelemio@gmail.com</span>
+      <span>github.com/&lt;your-username&gt;</span>
+      <span>linkedin.com/in/&lt;your-profile&gt;</span>
+    </div>
+  </div>
+
+  <p class="intro">
+    Software engineering undergraduate at Nile University with hands-on full-stack training from
+    Brainpals Code Academy. Builds responsive, accessible web interfaces in vanilla JavaScript,
+    HTML and CSS, and is expanding into backend development with Python, PHP and relational
+    databases. Looking for an internship or junior role where the work is real and the feedback is fast.
+  </p>
+
+  <h2>Education</h2>
+  <div class="block">
+    <div class="entry">
+      <div>
+        <h3>B.Sc. Software Engineering</h3>
+        <p class="org">Nile University</p>
+      </div>
+      <span class="when">Expected 2028</span>
+    </div>
+  </div>
+
+  <h2>Experience</h2>
+  <div class="block">
+    <div class="entry">
+      <div>
+        <h3>Software Engineering Intern</h3>
+        <p class="org">Brainpals Code Academy</p>
+      </div>
+      <span class="when">Jul 2026 — Sep 2026</span>
+    </div>
+    <ul>
+      <li>Completed intensive, practical full-stack web development training covering HTML, CSS and JavaScript.</li>
+      <li>Gained foundational exposure to backend logic and data handling using Python and PHP.</li>
+      <li>Applied debugging techniques, code structuring principles and Git version-control workflows in a team environment.</li>
+    </ul>
+  </div>
+
+  <h2>Projects</h2>
+  <div class="block">
+    <div class="entry">
+      <div>
+        <h3>SpendWise — Personal Finance &amp; Expense Tracker</h3>
+        <p class="org">HTML5, CSS3, JavaScript</p>
+      </div>
+      <span class="when">2026</span>
+    </div>
+    <ul>
+      <li>Designed and built the complete frontend for a budgeting application, including responsive layout structures.</li>
+      <li>Implemented dynamic UI components in vanilla JavaScript to handle budget inputs and re-render state live as the user types.</li>
+      <li>Structured the codebase for readability without a framework or build step.</li>
+      <li><em>In progress:</em> secure backend (Python/PHP) with persistent database storage for user transactions.</li>
+    </ul>
+  </div>
+
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div><b>Languages</b><span>JavaScript (ES6+), Python, PHP, HTML5, CSS3</span></div>
+    <div><b>Frontend</b><span>Responsive web design, DOM manipulation, UI development, semantic HTML, Flexbox &amp; Grid</span></div>
+    <div><b>Backend &amp; Data</b><span>Python, PHP, relational databases (fundamentals)</span></div>
+    <div><b>Tools</b><span>Git, GitHub, VS Code, Chrome DevTools</span></div>
+  </div>
+
+  <p class="note">References and code samples available on request.</p>
+
+</body>
+</html>
