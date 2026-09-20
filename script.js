@@ -259,23 +259,6 @@
     }
   });
 
-  // An explicitly labeled interactive concept, not the live SpendWise app.
-  const insight = $("#budget-insight span");
-  $$(".budget-category").forEach((button) => {
-    button.setAttribute("aria-pressed", "false");
-    button.addEventListener("click", () => {
-      $$(".budget-category").forEach((item) =>
-        item.setAttribute("aria-pressed", String(item === button)),
-      );
-      const amount = new Intl.NumberFormat("en-NG", {
-        style: "currency",
-        currency: "NGN",
-        maximumFractionDigits: 0,
-      }).format(Number(button.dataset.amount));
-      insight.textContent = `${button.dataset.category}: ${amount} allocated. ${button.dataset.description}. Sample figures only.`;
-    });
-  });
-
   let copyTimer;
   $("#copy-email").addEventListener("click", async () => {
     clearTimeout(copyTimer);

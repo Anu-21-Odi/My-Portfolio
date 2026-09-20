@@ -28,9 +28,9 @@ Inter and JetBrains Mono (Google Fonts families) are **self-hosted** in `assets/
 
 - Fixed transparent-to-glass navigation, active-section tracking, and a mobile slide-in drawer with backdrop, focus trapping, Escape handling, and scroll locking.
 - Steel-blue grid, three drifting background orbs, scroll parallax, and a fine-pointer cursor glow.
-- Five rotating typed roles, viewport-triggered counters and reveals, animated budget/degree progress, floating glass cards, and hover effects.
+- Five rotating typed roles, viewport-triggered counters and reveals, animated degree progress, floating glass cards, and hover effects.
 - Semantic sections for about, skills, projects, experience, education, and contact.
-- An interactive **illustrative** SpendWise budget: select Food, Transport, Bills, or Savings to display its sample allocation.
+- SpendWise project card with a screenshot of the real deployed dashboard, plus **Live Demo** and **Source Code** links.
 - Downloadable one-page PDF résumé and a printable HTML source.
 - `prefers-reduced-motion` support, including changes while the page is open. With reduced motion, content and final progress values remain visible and typing is static. Content is readable without JavaScript.
 
@@ -49,9 +49,9 @@ The contact form validates required fields, email syntax, minimum message length
 
 - GitHub: `https://github.com/Anu-21-Odi`
 - Verified SpendWise source: `https://github.com/Anu-21-Odi/SpendWise`
-- **Live demo URL:** not supplied or listed in the repository. The project button explicitly says **URL pending** rather than pointing to a dead link.
-- **LinkedIn:** not supplied. The contact and footer entries are labeled as coming soon, not linked to a generic homepage.
-- The budget mockup uses sample data and is not a screenshot or deployment of the actual SpendWise app.
+- **Live demo URL:** `https://spendwiseanu.netlify.app/`, linked from the project card’s Live Demo button.
+- **LinkedIn:** `https://www.linkedin.com/in/anuntelemi-odi-80a9433b2/`, linked from the contact section and the footer.
+- The project preview uses a real screenshot of the deployed SpendWise dashboard, provided by the site owner.
 - Backend/database integration remains labeled as a roadmap item, using the provided project description.
 - The training statistic describes the July–September **three-month program**, not three completed months of employment.
 - The degree progress is labeled **~50% (estimated)**, as specified; it is not calculated from academic credits.
@@ -65,9 +65,10 @@ For résumé changes, edit `Odi-Anuntelemi-Olurotimi-CV.html` and regenerate `Od
 
 ## Files
 
-- `index.html` — content, inline SVG icons, form, sample dashboard
+- `index.html` — content, inline SVG icons, form, project preview
 - `styles.css` — theme, responsive rules, motion, and reduced-motion alternatives
 - `script.js` — all interactions, no libraries
 - `assets/fonts/` — local variable fonts and licenses
 - `assets/favicon.svg` — gradient site icon
+- `assets/spendwise-dashboard.png` — live SpendWise dashboard screenshot used as the project preview
 - `Odi-Anuntelemi-Olurotimi-CV.html` and `.pdf` — résumé source and download
